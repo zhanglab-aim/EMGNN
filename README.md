@@ -1,4 +1,5 @@
 # README
+Paper preprint: https://arxiv.org/abs/2301.08831
 
 This repository contains two scripts for training and explaining the EMGNN model.
 
