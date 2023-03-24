@@ -60,7 +60,7 @@ parser.add_argument('--node_explain', default=False)
 parser.add_argument('--node_edge_explain', default=False)
 
 #run mlp as baseline instead of EMGNN
-#parser.add_argument('--mlp', default=False)
+parser.add_argument('--mlp', default=False)
 
  
 #which gnn to use in the EMGNN
