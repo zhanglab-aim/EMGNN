@@ -42,3 +42,7 @@ Note: Make sure the path to the trained model is the correct path.
 
 The script also includes additional functionalities such as loading a pretrained model, adding random features, adding identical features, adding structural noise, and running a multi-layer perceptron (MLP) as a baseline instead of the EMGNN. The functionality of these options can be found in the code.
 
+### Predictions for Unlabelled Genes
+
+We provide the predictions for the unlabelled genes of our EMGNN model in the following [link](https://michailchatzianastasis.github.io/csv_to_html/).
+
