@@ -1,7 +1,12 @@
-# README
-Paper preprint: https://arxiv.org/abs/2301.08831
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-This repository contains two scripts for training and explaining the EMGNN model.
+# README
+The preprint paper associated with this work can be accessed at the following link: https://arxiv.org/abs/2301.08831
+
+This repository contains the scripts for training and explaining the predictions of the EMGNN model.
+
+![EMGNN Architecture](Fig1-1.png)
 
 ## Requirements
 - Python 3
