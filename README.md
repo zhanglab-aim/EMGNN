@@ -1,7 +1,8 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-# README
+# Explainable Multilayer Graph Neural Network for Cancer Gene Prediction
+ 
 The preprint paper associated with this work can be accessed at the following link: https://arxiv.org/abs/2301.08831
 
 This repository contains the scripts for training and explaining the predictions of the EMGNN model.
