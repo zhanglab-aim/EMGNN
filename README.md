@@ -2,10 +2,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 # Explainable Multilayer Graph Neural Network for Cancer Gene Prediction
- 
-The preprint paper associated with this work can be accessed at the following link: https://arxiv.org/abs/2301.08831
 
-This repository contains the scripts for training and explaining the predictions of the EMGNN model.
+The identification of cancer genes is a critical yet challenging problem in cancer genomics research. Existing
+computational methods, including deep graph neural networks, fail to exploit the multilayered gene-gene interactions or
+provide limited explanations for their predictions. These methods are restricted to a single biological network, which cannot
+capture the full complexity of tumorigenesis. Models trained on different biological networks often yield different and even
+opposite cancer gene predictions, hindering their trustworthy adaptation. Here, we introduce an <strong>Explainable Multilayer
+Graph Neural Network (EMGNN)</strong> approach to identify cancer genes by leveraging multiple gene-gene interaction networks
+and pan-cancer multi-omics data. Unlike conventional graph learning on a single biological network, EMGNN uses a
+multilayered graph neural network to learn from multiple biological networks for accurate cancer gene prediction.
+
+The preprint paper associated with this work can be accessed at the following link: https://arxiv.org/abs/2301.08831.
+
 
 ![EMGNN Architecture](Fig1-1.png)
 
@@ -17,6 +25,8 @@ This repository contains the scripts for training and explaining the predictions
 - captum
 - pandas
 - sklearn
+
+This repository contains the scripts for training and explaining the predictions of the EMGNN model.
 
 ## How to Run
 
