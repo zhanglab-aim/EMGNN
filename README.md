@@ -1,7 +1,8 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-# Explainable Multilayer Graph Neural Network for Cancer Gene Prediction
+# Explainable Multilayer Graph Neural Network for Cancer Gene Prediction 
+<strong>Published at UOC Bioinformatics</strong> [Paper link](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad643/7325352).
 
 The identification of cancer genes is a critical yet challenging problem in cancer genomics research. Existing
 computational methods, including deep graph neural networks, fail to exploit the multilayered gene-gene interactions or
@@ -11,8 +12,6 @@ opposite cancer gene predictions, hindering their trustworthy adaptation. Here, 
 Graph Neural Network (EMGNN)</strong> approach to identify cancer genes by leveraging multiple gene-gene interaction networks
 and pan-cancer multi-omics data. Unlike conventional graph learning on a single biological network, EMGNN uses a
 multilayered graph neural network to learn from multiple biological networks for accurate cancer gene prediction.
-
-The preprint paper associated with this work can be accessed at the following link: https://arxiv.org/abs/2301.08831.
 
 
 ![EMGNN Architecture](Fig1-1.png)
@@ -77,4 +76,23 @@ The notebook provides step-by-step instructions and code snippets to perform an 
 ### Predictions for Unlabelled Genes
 
 We provide the predictions for the unlabelled genes of our EMGNN model in the following [link](https://michailchatzianastasis.github.io/csv_to_html/).
+
+### Citation
+    @article{10.1093/bioinformatics/btad643,
+        author = {Chatzianastasis, Michail and Vazirgiannis, Michalis and Zhang, Zijun},
+        title = "{Explainable Multilayer Graph Neural Network for Cancer Gene Prediction}",
+        journal = {Bioinformatics},
+        pages = {btad643},
+        year = {2023},
+        month = {10},
+        abstract = "{The identification of cancer genes is a critical yet challenging problem in cancer genomics research. Existing computational methods, including deep graph neural networks, fail to exploit the multilayered gene-gene interactions or provide limited explanations for their predictions. These methods are restricted to a single biological network, which cannot capture the full complexity of tumorigenesis. Models trained on different biological networks often yield different and even opposite cancer gene predictions, hindering their trustworthy adaptation. Here, we introduce an Explainable Multilayer Graph Neural Network (EMGNN) approach to identify cancer genes by leveraging multiple gene-gene interaction networks and pan-cancer multi-omics data. Unlike conventional graph learning on a single biological network, EMGNN uses a multilayered graph neural network to learn from multiple biological networks for accurate cancer gene prediction.Our method consistently outperforms all existing methods, with an average 7.15\\% improvement in area under the precision-recall curve (AUPR) over the current state-of-the-art method. Importantly, EMGNN integrated multiple graphs to prioritize newly predicted cancer genes with conflicting predictions from single biological networks. For each prediction, EMGNN provided valuable biological insights via both model-level feature importance explanations and molecular-level gene set enrichment analysis. Overall, EMGNN offers a powerful new paradigm of graph learning through modeling the multilayered topological gene relationships and provides a valuable tool for cancer genomics research.Our code is publicly available at https://github.com/zhanglab-aim/EMGNN.}",
+        issn = {1367-4811},
+        doi = {10.1093/bioinformatics/btad643},
+        url = {https://doi.org/10.1093/bioinformatics/btad643},
+        eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad643/52306228/btad643.pdf},
+    }
+
+
+
+
 
